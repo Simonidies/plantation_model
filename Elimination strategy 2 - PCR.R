@@ -1,12 +1,12 @@
+### CAMBODIAN PLANTATION MALARIA TRANSMISSION MODEL: R CODE (10 AUGUST 2016)  ###
+### AUTHOR: SIMON MENDELSOHN, NUFFIELD DEPARTMENT OF MEDICINE, OXFORD UNIVERSITY ###
+
+## ELIMINATION STRATEGY 2: PCR screening campaign ##
 
 #CLEAR WORKSPACE
 rm(list=ls())
+
 ptm <- proc.time()
-
-#SET WORKING DIRECTORY
-
-setwd(dir = "/Users/simonmendelsohn/Dropbox/TT Placement/Plantation Model")
-getwd()
 
 #LOAD LIBRARIES
 library(deSolve)
